@@ -1,0 +1,148 @@
+/* CSS untuk tampilan halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #d636c0;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .sidebar {
+    background-color: #222;
+    color: #fff;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar a:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    margin-left: 220px;
+    padding: 20px;
+  }
+  
+  section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+  
+  .service {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 40px;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  .service img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-item {
+    width: 25%;
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+  }
+  
+  section form input,
+  section form textarea,
+  section form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fdf4dc;
+    width: 100%;
+    /* display: block; */
+    position: fixed;
+    float: left;
+    overflow: hidden;
+    /* padding: 10px;
+    padding-left: 10px; */
+    left: 0;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    color: #fdf4dc;
+  }
+  
